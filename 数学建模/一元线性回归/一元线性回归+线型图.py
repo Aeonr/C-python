@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-a = np.loadtxt('E:\\python\\数学建模\\模拟数据\\一元线性回归模拟数据.txt')
+a = np.loadtxt('..\\模拟数据\\一元线性回归模拟数据.txt')
 x = a[:, 0]
 y = a[:, 1]
 
