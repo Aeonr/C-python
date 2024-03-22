@@ -6,7 +6,7 @@ def to_array(x):
         x=int(x/10)
     return list
 
-def  to_number(list):
+def  to_number(list):num
     num=0
     for i in range(4):
         num=num*10+list[i]
