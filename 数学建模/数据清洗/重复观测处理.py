@@ -1,2 +1,2 @@
 import pandas as pd
-a = pd.read_excel("")
+a = pd.read_excel
