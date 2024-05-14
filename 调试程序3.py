@@ -1,41 +1,45 @@
-from sympy import symbols, Function, Eq, dsolve
-import numpy as np
-import matplotlib.pyplot as plt
-x = np.arange(0.0, 1.1, 0.1)
-d = np.arange(1, 2.1, 0.1)
-total_t = 2000
-result = np.zeros(4)
-k = 0.5
-m_best_1000 = []
-f_best_1000 = []
-m_best_300 = []
-f_best_300 = []
-for a in d:
-    for b in d:
-        m = np.zeros(total_t)
-        f = np.zeros(total_t)
-        m[0] = 10
-        f[0] = 10
-        for t in range(1, total_t):
-            m[t] = m[t - 1] + 0.9 * m[t - 1] * (1 - (m[t - 1] + a * f[t - 1]) / 300)
-            f[t] = f[t - 1] + 0.5 * f[t - 1] * (1 - (b * m[t - 1] + f[t - 1]) / 300)
-            if t == total_t - 1:
-                e = m[total_t - 1] / (m[total_t - 1] + f[total_t - 1])
-                if abs(e - 0.78) < k:
-                    result[2] = a
-                    result[3] = b
-                    m_best_1000 = m
-                    f_best_1000 = f
-                    k = abs(e - 0.78)
-                else:
-                    continue
+import requests
+from lxml import etree
+import pandas as pd
 
-plt.figure()
-plt.plot(m_best_1000, label='m_1000')
-plt.plot(f_best_1000, label='f_1000')
-# plt.figure()
-# plt.plot(m_best_300, label='m_300')
-# plt.plot(f_best_300, label='f_300')
-plt.legend()
-plt.show()
-print(result)
+def get_html(place, month):
+    headers = {
+        "Accept-Encoding": "Gzip",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0",
+    }
+    url = f'https://lishi.tianqi.com/{place}/{month}.html'
+
+    r = requests.get(url, headers=headers)
+    r_html = etree.HTML(r.text)
+
+    return r_html
+
+
+# 月份参数列表,这里需要修改时间区间的可以修改range中的数据
+month_list = pd.period_range('200001', '202404', freq='M').strftime('%Y%m')
+
+data = pd.read_excel("E:\\数据库\\数据资源整理【三】：最全中国各省份城市编码以及经纬度数据\\地市列表_拼音.xlsx")
+area = data["地级市"]
+area_pin = data["拼音"]
+df = pd.DataFrame(columns=['地区', '日期', '最高气温', '最低气温', '天气', '风向'])
+for j in range(227, len(area_pin)):
+    print(area[j])
+    for i, month in enumerate(month_list):
+        r_html = get_html(area_pin[j], month)
+        # 找到存放历史天气数据的div节点
+        div = r_html.xpath('.//div[@class="tian_three"]')[0]
+        # 每个日期的历史天气数据的li节点组成的列表
+        lis = div.xpath('.//li')
+        for li in lis:
+            item = {
+                '地区': area[j],
+                '日期': li.xpath('./div[@class="th200"]/text()')[0],
+                '最高气温': li.xpath('./div[@class="th140"]/text()')[0],
+                '最低气温': li.xpath('./div[@class="th140"]/text()')[1],
+                '天气': li.xpath('./div[@class="th140"]/text()')[2],
+                '风向': li.xpath('./div[@class="th140"]/text()')[3]
+            }
+            df = df._append(item, ignore_index=True)
+        print(f'{i + 1}个月数据已采集')
+
+df.to_excel(r'历史天气数据2020.xlsx', index=None)
