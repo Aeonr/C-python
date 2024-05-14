@@ -24,4 +24,3 @@ for i in range(len(ll_data)):
 
 data_export.to_excel('Daily.xlsx')
 # data.to_csv('Daily.csv')
-
