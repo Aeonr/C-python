@@ -2,15 +2,17 @@ import requests
 from lxml import etree
 import pandas as pd
 import time
+from fake_useragent import UserAgent
 
 def get_html(place, month):
+
     headers = {
         "Accept-Encoding": "Gzip",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0",
+        "User-Agent": ua.random
     }
     url = f'https://lishi.tianqi.com/{place}/{month}.html'
 
-    time.sleep(1)
+    time.sleep(5)
     r = requests.get(url, headers=headers)
     r_html = etree.HTML(r.text)
 
@@ -24,7 +26,7 @@ data = pd.read_excel("E:\\数据库\\数据资源整理【三】：最全中国�
 area = data["地级市"]
 area_pin = data["拼音"]
 df = pd.DataFrame(columns=['地区', '日期', '最高气温', '最低气温', '天气', '风向'])
-for j in range(227, len(area_pin)):
+for j in range(len(area_pin)):
     time.sleep(3)
     print(area[j])
     for i, month in enumerate(month_list):

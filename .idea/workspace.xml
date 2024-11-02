@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9538009-e6d0-49ba-ba40-8d5ed054b4d1" name="更改" comment="新增">
-      <change afterPath="$PROJECT_DIR$/python基础/文字拼音转换.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python基础/获取天气数据_库.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/爬取天气数据_天气网数据.py" afterDir="false" />
+    <list default="true" id="a9538009-e6d0-49ba-ba40-8d5ed054b4d1" name="更改" comment="修改">
+      <change afterPath="$PROJECT_DIR$/Case/使用记录.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python基础/爬取xlsx链接文件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图像处理/生成二维码.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据处理/CE实验数据匹配.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据处理/个体异质性mixlogit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据处理/农科院数据处理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据处理/数据简化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据处理/甘特图.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据处理/眼部数据-t检验&amp;方差分析.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/爬取uncomtrade数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/获取登录cookie.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python基础/excel文件提取.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/excel文件提取.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python基础/获取天气数据.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/优美图库抓取.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/优美图库抓取.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/爬取天气数据_天气网数据.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/爬取天气数据_天气网数据.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/调试程序1.py" beforeDir="false" afterPath="$PROJECT_DIR$/调试程序1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/调试程序2.py" beforeDir="false" afterPath="$PROJECT_DIR$/调试程序2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/调试程序3.py" beforeDir="false" afterPath="$PROJECT_DIR$/调试程序3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +47,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "database.data.extractors.current.id": "Comma-separated (CSV)_id",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/repository_local/my_paper",
+    "last_opened_file_path": "E:/repository_local/python",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.nasller.CodeGlancePro",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -58,8 +70,8 @@
       <recent name="E:\repository_local\python\Case\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.调试程序3">
-    <configuration name="优美图库抓取" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.眼部数据-t检验&amp;方差分析">
+    <configuration name="眼部数据-t检验&amp;方差分析" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,13 +79,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="E:\repository_local\python\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/优美图库抓取.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理/眼部数据-t检验&amp;方差分析.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="农科院数据处理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\repository_local\python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理/农科院数据处理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="调试程序1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\repository_local\python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/调试程序1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +145,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="E:\repository_local\python\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -105,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="文字拼音转换" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="甘特图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,13 +167,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="E:\repository_local\python\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理/甘特图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="绘制多交点元" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\repository_local\python\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/文字拼音转换.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/绘制多交点元.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +203,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="调试程序3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="数据简化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,13 +211,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="E:\repository_local\python\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/调试程序3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理/数据简化.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="获取天气数据" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="数据简化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,105 +233,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="E:\repository_local\python\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/获取天气数据.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="文字拼音转换" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\repository_local\python\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/文字拼音转换.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="获取天气数据" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\repository_local\python\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/获取天气数据.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="获取天气数据" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\repository_local\python\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/获取天气数据.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="爬取天气数据_天气网数据" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\repository_local\python\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\repository_local\python\爬虫\爬取天气数据_天气网数据.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理/数据简化.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,7 +255,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="E:\repository_local\python\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -290,19 +270,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.爬取天气数据_天气网数据" />
+      <item itemvalue="Python.眼部数据-t检验&amp;方差分析" />
+      <item itemvalue="Python.农科院数据处理" />
       <item itemvalue="Python.调试程序2" />
-      <item itemvalue="Python.调试程序3" />
-      <item itemvalue="Python.优美图库抓取" />
-      <item itemvalue="Python.文字拼音转换" />
+      <item itemvalue="Python.调试程序1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.调试程序3" />
-        <item itemvalue="Python.爬取天气数据_天气网数据" />
-        <item itemvalue="Python.文字拼音转换" />
+        <item itemvalue="Python.眼部数据-t检验&amp;方差分析" />
+        <item itemvalue="Python.调试程序1" />
+        <item itemvalue="Python.农科院数据处理" />
         <item itemvalue="Python.调试程序2" />
-        <item itemvalue="Python.优美图库抓取" />
       </list>
     </recent_temporary>
   </component>
@@ -331,6 +309,56 @@
       <workItem from="1715399323156" duration="526000" />
       <workItem from="1715399870330" duration="16935000" />
       <workItem from="1715564483866" duration="10658000" />
+      <workItem from="1715654688873" duration="355000" />
+      <workItem from="1715671941453" duration="254000" />
+      <workItem from="1715675721850" duration="380000" />
+      <workItem from="1715742147402" duration="3227000" />
+      <workItem from="1715913897060" duration="199000" />
+      <workItem from="1716090926590" duration="13000" />
+      <workItem from="1716858202706" duration="535000" />
+      <workItem from="1716887701796" duration="35000" />
+      <workItem from="1716887744127" duration="21000" />
+      <workItem from="1716887772388" duration="2022000" />
+      <workItem from="1716890493782" duration="124000" />
+      <workItem from="1717462757293" duration="367000" />
+      <workItem from="1717603056335" duration="1171000" />
+      <workItem from="1717917222441" duration="41000" />
+      <workItem from="1718203282132" duration="527000" />
+      <workItem from="1722487121356" duration="728000" />
+      <workItem from="1722498548922" duration="820000" />
+      <workItem from="1722850824508" duration="8747000" />
+      <workItem from="1722868114311" duration="5249000" />
+      <workItem from="1722996870026" duration="16000" />
+      <workItem from="1723562259789" duration="1782000" />
+      <workItem from="1723691320307" duration="236000" />
+      <workItem from="1723888664476" duration="2018000" />
+      <workItem from="1723965364484" duration="1766000" />
+      <workItem from="1724032410714" duration="635000" />
+      <workItem from="1724118512414" duration="14000" />
+      <workItem from="1725440697045" duration="4116000" />
+      <workItem from="1725588770627" duration="556000" />
+      <workItem from="1725592212064" duration="11607000" />
+      <workItem from="1725631983703" duration="55000" />
+      <workItem from="1726060005791" duration="2620000" />
+      <workItem from="1726191664691" duration="20000" />
+      <workItem from="1726228376548" duration="259000" />
+      <workItem from="1726231568151" duration="1778000" />
+      <workItem from="1726287982229" duration="12000" />
+      <workItem from="1726373394662" duration="4564000" />
+      <workItem from="1726454606107" duration="2825000" />
+      <workItem from="1726931206288" duration="3964000" />
+      <workItem from="1726999235872" duration="15000" />
+      <workItem from="1727946297620" duration="103000" />
+      <workItem from="1727946459698" duration="2343000" />
+      <workItem from="1728201683366" duration="120000" />
+      <workItem from="1728208290615" duration="28000" />
+      <workItem from="1729007716057" duration="4864000" />
+      <workItem from="1729044396384" duration="7276000" />
+      <workItem from="1729063399045" duration="1961000" />
+      <workItem from="1729098959651" duration="10000" />
+      <workItem from="1729913906513" duration="1925000" />
+      <workItem from="1730513176832" duration="24000" />
+      <workItem from="1730534335401" duration="4586000" />
     </task>
     <task id="LOCAL-00001" summary="新增">
       <created>1711458968903</created>
@@ -374,7 +402,42 @@
       <option name="project" value="LOCAL" />
       <updated>1715484417663</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="天气数据爬取">
+      <created>1715654722896</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715654722896</updated>
+    </task>
+    <task id="LOCAL-00008" summary="天气数据爬取">
+      <created>1715654819256</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715654819256</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修改">
+      <created>1715654839693</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715654839693</updated>
+    </task>
+    <task id="LOCAL-00010" summary="修改">
+      <created>1715654859644</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715654859644</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修改">
+      <created>1715654984193</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715654984193</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,14 +468,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增" />
+    <MESSAGE value="天气数据爬取" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/数据处理/个体异质性mixlogit.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python$1.coverage" NAME="调试程序1 覆盖结果" MODIFIED="1715490974300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$___1_.coverage" NAME="爬取天气数据_天气网数据 (1) 覆盖结果" MODIFIED="1717603159462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$xlsx.coverage" NAME="爬取xlsx链接文件 覆盖结果" MODIFIED="1722914602826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础" />
+    <SUITE FILE_PATH="coverage/python$_t_.coverage" NAME="眼部数据-t检验&amp;方差分析 覆盖结果" MODIFIED="1729092600330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理" />
+    <SUITE FILE_PATH="coverage/python$67.coverage" NAME="67 覆盖结果" MODIFIED="1711525308014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
+    <SUITE FILE_PATH="coverage/python$CE.coverage" NAME="CE实验数据匹配 覆盖结果" MODIFIED="1725631573575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME="甘特图 覆盖结果" MODIFIED="1729914622252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理" />
+    <SUITE FILE_PATH="coverage/python$uncomtrade.coverage" NAME="爬取uncomtrade数据 Coverage Results" MODIFIED="1716858646496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$mixlogit.coverage" NAME="个体异质性mixlogit 覆盖结果" MODIFIED="1725441386020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据处理" />
+    <SUITE FILE_PATH="coverage/python$1.coverage" NAME="调试程序1 覆盖结果" MODIFIED="1729011547457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$cookie.coverage" NAME="获取登录cookie 覆盖结果" MODIFIED="1722868365258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/python$3.coverage" NAME="调试程序3 覆盖结果" MODIFIED="1715654023731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$excel.coverage" NAME="excel文件提取 覆盖结果" MODIFIED="1715486733073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础" />
-    <SUITE FILE_PATH="coverage/python$67.coverage" NAME="67 覆盖结果" MODIFIED="1711525308014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
-    <SUITE FILE_PATH="coverage/python$.coverage" NAME="爬取天气数据 覆盖结果" MODIFIED="1715593945567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$2.coverage" NAME="调试程序2 覆盖结果" MODIFIED="1715570100792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$2.coverage" NAME="调试程序2 覆盖结果" MODIFIED="1726457474792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
