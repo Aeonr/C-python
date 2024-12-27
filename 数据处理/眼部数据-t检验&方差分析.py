@@ -28,45 +28,73 @@ diopter_cnc_4 = [x - (-1.75) for x in diopter_cnc_4]
 
 diopter_con_base = diopter.loc[diopter['组别'] == '对照组', '基线数据'].agg(list)
 diopter_con_1 = diopter.loc[diopter['组别'] == '对照组', '第一次复查'].agg(list)
+diopter_con_1 = [x - (-2.03) for x in diopter_con_1]
 diopter_con_2 = diopter.loc[diopter['组别'] == '对照组', '第二次复查'].agg(list)
+diopter_con_2 = [x - (-2.03) for x in diopter_con_2]
 diopter_con_3 = diopter.loc[diopter['组别'] == '对照组', '第三次复查'].agg(list)
+diopter_con_3 = [x - (-2.03) for x in diopter_con_3]
 diopter_con_4 = diopter.loc[diopter['组别'] == '对照组', '第四次复查'].agg(list)
+diopter_con_4 = [x - (-2.03) for x in diopter_con_4]
 
 axial_feeder_base = axial.loc[axial['组别'] == '哺光仪组', '基线数据'].agg(list)
 axial_feeder_1 = axial.loc[axial['组别'] == '哺光仪组', '第一次复查'].agg(list)
+axial_feeder_1 = [x - 24.85 for x in axial_feeder_1]
 axial_feeder_2 = axial.loc[axial['组别'] == '哺光仪组', '第二次复查'].agg(list)
+axial_feeder_2 = [x - 24.85 for x in axial_feeder_2]
 axial_feeder_3 = axial.loc[axial['组别'] == '哺光仪组', '第三次复查'].agg(list)
+axial_feeder_3 = [x - 24.85 for x in axial_feeder_3]
 axial_feeder_4 = axial.loc[axial['组别'] == '哺光仪组', '第四次复查'].agg(list)
+axial_feeder_4 = [x - 24.85 for x in axial_feeder_4]
 
 axial_cnc_base = axial.loc[axial['组别'] == 'CNC组', '基线数据'].agg(list)
 axial_cnc_1 = axial.loc[axial['组别'] == 'CNC组', '第一次复查'].agg(list)
+axial_cnc_1 = [x - 23.81 for x in axial_cnc_1]
 axial_cnc_2 = axial.loc[axial['组别'] == 'CNC组', '第二次复查'].agg(list)
+axial_cnc_2 = [x - 23.81 for x in axial_cnc_2]
 axial_cnc_3 = axial.loc[axial['组别'] == 'CNC组', '第三次复查'].agg(list)
+axial_cnc_3 = [x - 23.81 for x in axial_cnc_3]
 axial_cnc_4 = axial.loc[axial['组别'] == 'CNC组', '第四次复查'].agg(list)
+axial_cnc_4 = [x - 23.81 for x in axial_cnc_4]
 
 axial_con_base = axial.loc[axial['组别'] == '对照组', '基线数据'].agg(list)
 axial_con_1 = axial.loc[axial['组别'] == '对照组', '第一次复查'].agg(list)
+axial_con_1 = [x - 24.31 for x in axial_con_1]
 axial_con_2 = axial.loc[axial['组别'] == '对照组', '第二次复查'].agg(list)
+axial_con_2 = [x - 24.31 for x in axial_con_2]
 axial_con_3 = axial.loc[axial['组别'] == '对照组', '第三次复查'].agg(list)
+axial_con_3 = [x - 24.31 for x in axial_con_3]
 axial_con_4 = axial.loc[axial['组别'] == '对照组', '第四次复查'].agg(list)
+axial_con_4 = [x - 24.31 for x in axial_con_4]
 
 choroid_feeder_base = choroid.loc[choroid['组别'] == '哺光仪组', '基线数据'].agg(list)
 choroid_feeder_1 = choroid.loc[choroid['组别'] == '哺光仪组', '第一次复查'].agg(list)
+choroid_feeder_1 = [x - 268.35 for x in choroid_feeder_1]
 choroid_feeder_2 = choroid.loc[choroid['组别'] == '哺光仪组', '第二次复查'].agg(list)
+choroid_feeder_2 = [x - 268.35 for x in choroid_feeder_2]
 choroid_feeder_3 = choroid.loc[choroid['组别'] == '哺光仪组', '第三次复查'].agg(list)
+choroid_feeder_3 = [x - 268.35 for x in choroid_feeder_3]
 choroid_feeder_4 = choroid.loc[choroid['组别'] == '哺光仪组', '第四次复查'].agg(list)
+choroid_feeder_4 = [x - 268.35 for x in choroid_feeder_4]
 
 choroid_cnc_base = choroid.loc[choroid['组别'] == 'CNC组', '基线数据'].agg(list)
 choroid_cnc_1 = choroid.loc[choroid['组别'] == 'CNC组', '第一次复查'].agg(list)
+choroid_cnc_1 = [x - 302.5 for x in choroid_cnc_1]
 choroid_cnc_2 = choroid.loc[choroid['组别'] == 'CNC组', '第二次复查'].agg(list)
+choroid_cnc_2 = [x - 302.5 for x in choroid_cnc_2]
 choroid_cnc_3 = choroid.loc[choroid['组别'] == 'CNC组', '第三次复查'].agg(list)
+choroid_cnc_3 = [x - 302.5 for x in choroid_cnc_3]
 choroid_cnc_4 = choroid.loc[choroid['组别'] == 'CNC组', '第四次复查'].agg(list)
+choroid_cnc_4 = [x - 302.5 for x in choroid_cnc_4]
 
 choroid_con_base = choroid.loc[choroid['组别'] == '对照组', '基线数据'].agg(list)
 choroid_con_1 = choroid.loc[choroid['组别'] == '对照组', '第一次复查'].agg(list)
+choroid_con_1 = [x - 314.05 for x in choroid_con_1]
 choroid_con_2 = choroid.loc[choroid['组别'] == '对照组', '第二次复查'].agg(list)
+choroid_con_2 = [x - 314.05 for x in choroid_con_2]
 choroid_con_3 = choroid.loc[choroid['组别'] == '对照组', '第三次复查'].agg(list)
+choroid_con_3 = [x - 314.05 for x in choroid_con_3]
 choroid_con_4 = choroid.loc[choroid['组别'] == '对照组', '第四次复查'].agg(list)
+choroid_con_4 = [x - 314.05 for x in choroid_con_4]
 
 value_list = [diopter_feeder_base, diopter_feeder_1, diopter_feeder_2, diopter_feeder_3, diopter_feeder_4,
               diopter_cnc_base, diopter_cnc_1, diopter_cnc_2, diopter_cnc_3, diopter_cnc_4,
@@ -100,7 +128,7 @@ desc = {}
 for i in range(len(value_list)):
     desc[value_list_name[i]] = np.mean(value_list[i]), np.std(value_list[i])
 desc = {k: tuple(round(x, 2) for x in v) for k, v in desc.items()}
-# print(desc)
+print(desc)
 
 # 组间比较
 # 两组间独立样本t检验
@@ -127,7 +155,7 @@ t_result_diopter['diopter_feeder_con_4'] = s, f
 s, f = ttest_ind(diopter_cnc_4, diopter_con_4)
 t_result_diopter['diopter_cnc_con_4'] = s, f
 t_result_diopter = {k: tuple(round(x, 2) for x in v) for k, v in t_result_diopter.items()}
-# print(t_result_diopter)  # t检验阈值0.05，小于0.05认为是显著
+print(t_result_diopter)  # t检验阈值0.05，小于0.05认为是显著
 # 眼轴长
 t_result_axial = {}
 s, f = ttest_ind(axial_feeder_base, axial_con_base)
@@ -151,7 +179,7 @@ t_result_axial['axial_feeder_con_4'] = s, f
 s, f = ttest_ind(axial_cnc_4, axial_con_4)
 t_result_axial['axial_cnc_con_4'] = s, f
 t_result_axial = {k: tuple(round(x, 2) for x in v) for k, v in t_result_axial.items()}
-# print(t_result_axial)
+print(t_result_axial)
 # 脉络膜
 t_result_choroid = {}
 s, f = ttest_ind(choroid_feeder_base, choroid_con_base)
@@ -175,7 +203,7 @@ t_result_choroid['choroid_feeder_con_4'] = s, f
 s, f = ttest_ind(choroid_cnc_4, choroid_con_4)
 t_result_choroid['choroid_cnc_con_4'] = s, f
 t_result_choroid = {k: tuple(round(x, 2) for x in v) for k, v in t_result_choroid.items()}
-# print(t_result_choroid)
+print(t_result_choroid)
 
 # 组内比较
 # 组内配对样本t检验
@@ -332,31 +360,31 @@ print(k_choroid)
 
 # 组内方差分析
 anova_diopter = {}
-f, p = f_oneway(diopter_feeder_base, diopter_feeder_1, diopter_feeder_2, diopter_feeder_3, diopter_feeder_4)
+f, p = f_oneway(diopter_feeder_1, diopter_feeder_2, diopter_feeder_3, diopter_feeder_4)
 anova_diopter['feeder'] = f, p
-f, p = f_oneway(diopter_cnc_base, diopter_cnc_1, diopter_cnc_2, diopter_cnc_3, diopter_cnc_4)
+f, p = f_oneway(diopter_cnc_1, diopter_cnc_2, diopter_cnc_3, diopter_cnc_4)
 anova_diopter['cnc'] = f, p
-f, p = f_oneway(diopter_con_base, diopter_con_1, diopter_con_2, diopter_con_3, diopter_con_4)
+f, p = f_oneway(diopter_con_1, diopter_con_2, diopter_con_3, diopter_con_4)
 anova_diopter['con'] = f, p
 anova_diopter = {k: tuple(round(x, 2) for x in v) for k, v in anova_diopter.items()}
 # print(anova_diopter)
 
 anova_axial = {}
-f, p = f_oneway(axial_feeder_base, axial_feeder_1, axial_feeder_2, axial_feeder_3, axial_feeder_4)
+f, p = f_oneway(axial_feeder_1, axial_feeder_2, axial_feeder_3, axial_feeder_4)
 anova_axial['feeder'] = f, p
-f, p = f_oneway(axial_cnc_base, axial_cnc_1, axial_cnc_2, axial_cnc_3, axial_cnc_4)
+f, p = f_oneway(axial_cnc_1, axial_cnc_2, axial_cnc_3, axial_cnc_4)
 anova_axial['cnc'] = f, p
-f, p = f_oneway(axial_con_base, axial_con_1, axial_con_2, axial_con_3, axial_con_4)
+f, p = f_oneway(axial_con_1, axial_con_2, axial_con_3, axial_con_4)
 anova_axial['con'] = f, p
 anova_axial = {k: tuple(round(x, 2) for x in v) for k, v in anova_axial.items()}
 # print(anova_axial)
 
 anova_choroid = {}
-f, p = f_oneway(choroid_feeder_base, choroid_feeder_1, choroid_feeder_2, choroid_feeder_3, choroid_feeder_4)
+f, p = f_oneway(choroid_feeder_1, choroid_feeder_2, choroid_feeder_3, choroid_feeder_4)
 anova_choroid['feeder'] = f, p
-f, p = f_oneway(choroid_cnc_base, choroid_cnc_1, choroid_cnc_2, choroid_cnc_3, choroid_cnc_4)
+f, p = f_oneway(choroid_cnc_1, choroid_cnc_2, choroid_cnc_3, choroid_cnc_4)
 anova_choroid['cnc'] = f, p
-f, p = f_oneway(choroid_con_base, choroid_con_1, choroid_con_2, choroid_con_3, choroid_con_4)
+f, p = f_oneway(choroid_con_1, choroid_con_2, choroid_con_3, choroid_con_4)
 anova_choroid['con'] = f, p
 anova_choroid = {k: tuple(round(x, 2) for x in v) for k, v in anova_choroid.items()}
 # print(anova_choroid)
