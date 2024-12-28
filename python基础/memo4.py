@@ -181,4 +181,3 @@ if __name__ == "__main__":
     root.attributes('-toolwindow', True)
     root.geometry("250x400+1300+100")
     root.mainloop()
-
