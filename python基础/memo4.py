@@ -18,13 +18,16 @@ class MemoApp:
         self.task_frame.pack(fill=tk.BOTH, expand=True)
         self.update_task_frame()  # 初始化任务框架显示
 
+        button_frame = tk.Frame(root)
+        button_frame.pack(side=tk.BOTTOM, anchor=tk.E)
+
         # 创建查看已完成任务的按钮
-        self.view_completed_button = tk.Button(root, text="查看已完成任务", command=self.view_completed_tasks)
-        self.view_completed_button.pack(side=tk.BOTTOM, pady=10)
+        self.view_completed_button = tk.Button(button_frame, text="···", command=self.view_completed_tasks, bd=0)
+        self.view_completed_button.grid(row=0, column=0, padx=5, pady=10)
 
         # 创建添加任务的按钮
-        self.add_button = tk.Button(root, text="添加任务", command=self.open_add_task_window)
-        self.add_button.pack(side=tk.BOTTOM, pady=10)
+        self.add_button = tk.Button(button_frame, text="+", command=self.open_add_task_window, bd=0)
+        self.add_button.grid(row=0, column=1, padx=5, pady=10)
 
     def load_tasks(self):
         try:
@@ -68,14 +71,14 @@ class MemoApp:
             # 创建一个框架来存放任务和完成按钮
             task_frame = tk.Frame(self.task_frame)
             task_frame.pack(fill=tk.X)
+            # 创建完成任务的按钮
+            complete_button = tk.Button(task_frame, text="✓", command=lambda index=i: self.complete_task(index), bd=0)
+            complete_button.pack(side=tk.LEFT, padx=5)
             # 显示任务的标签
             task_label = tk.Label(task_frame, text=task, anchor="w", justify=tk.LEFT, wraplength=200)
             task_label.pack(side=tk.LEFT, fill=tk.X, expand=True)
-            # 创建完成任务的按钮
-            complete_button = tk.Button(task_frame, text="完成", command=lambda index=i: self.complete_task(index), bd=0)
-            complete_button.pack(side=tk.RIGHT, padx=10)
             # 创建编辑任务的按钮
-            edit_button = tk.Button(task_frame, text="编辑", command=lambda index=i: self.edit_task(index), bd=0)
+            edit_button = tk.Button(task_frame, text="〇", command=lambda index=i: self.edit_task(index), bd=0)
             edit_button.pack(side=tk.RIGHT, padx=10)
 
     def open_add_task_window(self):
