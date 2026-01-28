@@ -1,0 +1,27 @@
+# 1. 忽略所有文件和目录（黑名单兜底）
+*
+*/
+
+# 2. 白名单：放行 .py 文件（含所有子目录）
+!*.py
+!*/
+
+# 3. 白名单：放行 .sh 文件（含所有子目录）
+!*.sh
+
+!*.docx
+!*.pptx
+!*.pdf
+!*.png
+!*.jpg
+!*.jpeg
+!*.toml
+
+# 4. 必须放行 .gitignore 本身（否则配置不生效）
+!.gitignore
+
+venv/
+.DS_Store
+.DS_Store?
+
+subjects/
