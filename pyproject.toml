@@ -6,6 +6,10 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "2captcha-python>=2.0.2",
+    "earthengine-api>=1.7.34",
+    "fiona>=1.10.1",
+    "geopandas>=1.1.2",
+    "openpyxl>=3.1.5",
     "pandas>=3.0.0",
     "selenium>=4.40.0",
 ]
